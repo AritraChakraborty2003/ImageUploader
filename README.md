@@ -6,5 +6,5 @@ This is a Django based Image Uploader Project
 </p>
 <p float="left" align="center">
   <img width="400" alt="img1" src="https://github.com/AritraChakraborty2003/ImageUploader/assets/107548404/81573617-2259-4f7b-aee5-f258486c5571">
-  <img width="400" alt="img2" src="https://github.com/AritraChakraborty2003/ImageUploader/assets/107548404/0a795614-d6f0-490c-8205-7d9d24e94782">
+  <img width="400" alt="img2" src="https://github.com/AritraChakraborty2003/ImageUploader/assets/107548404/e37ab608-81c0-4ecd-9ca6-f018dff066da">
 </p>
