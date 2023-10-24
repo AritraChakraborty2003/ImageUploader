@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+    <h2 style="text-align: center; font-size: 3.5vmin;">Image Uploader</h2>
+    <div style="width:100vw; height: 85vmin;border: 1px solid black; display: flex; justify-content: center; align-items: center;background-color: rgb(39, 37, 37); color: white; font-weight: bold; font-size: 4vmin;">
+       <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{form}}
+
+        <button style="padding: 1vmin; font-size: 2vmin;background-color: orangered; color: white;" type="submit" name="subt" value="upload">Upload</button>
+        </form>
+    </div>
+
+    <div class="container" style="width:100vw; border: 1px solid black;display: flex; justify-content: space-evenly;">
+        {% for x in img %}
+        <div style="height: 50vmin; width: 50vmin;">
+            <img src="{{x.photo.url}}" style="max-width: 100%; max-height:100%; object-fit: contain;">
+            <p>{{x.time}}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    
+</body>
+</html>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+</style>
