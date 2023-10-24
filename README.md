@@ -2,7 +2,7 @@
 This is a Django based Image Uploader Project
 <p float="left" align="center">
   <img width="400" alt="img1" src="https://github.com/AritraChakraborty2003/ImageUploader/assets/107548404/628425bd-a45b-43fd-8d6e-1c8ff2a09b01">
-  <img width="400" alt="img2" src="https://github.com/AritraChakraborty2003/ImageUploader/assets/107548404/3cfe4c82-fdab-4470-92c6-b3f838e0a6c1">
+  <img width="400" alt="img2" src="https://github.com/AritraChakraborty2003/ImageUploader/assets/107548404/8af7bea7-8a9d-41e8-b205-7862c384da18">
 </p>
 <p float="left" align="center">
   <img width="400" alt="img1" src="https://github.com/AritraChakraborty2003/ImageUploader/assets/107548404/81573617-2259-4f7b-aee5-f258486c5571">
